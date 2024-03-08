@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;    
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+#left{
+    width: 80%;
+    height: 100%;
+}
+
+#left #ltop{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-position-y: center;
+    background-size: 1070px;
+}
+
+#left #ltop h1{
+    position: absolute;
+    left: 65px;
+    top: 75px;
+    font-family: "Montserrat";
+}
+#btmright i{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 30px;
+}
+
+#left #lbottom{    
+    width: 100%;
+    height: 30%;
+    color: wheat;
+    padding: 45px 130px;
+    background-color: #222;
+}
+
+#lbtmcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+
+#cntntleft{
+    width: 45%;
+    height: 100%;
+}
+
+#cntntleft p{
+    width: 70%;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#cntntright{
+    width: 45%;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    margin-top: 20px;
+}
+
+.relem{
+    display: flex;
+}
+
+.relemtext{
+    margin-left: 10px;
+}
+
+.relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+}
+
+.relem i{
+    color: green;
+}
+
+#right{
+    width: 20%;
+    height: 100%;
+}
+
+#right #rtop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    padding: 70px;
+    background-color: white;
+}
+
+#rtop a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+
+#rtop #selected{
+    position: relative;
+    margin-left: 20px;
+}
+
+#rtop #selected::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+}
+
+#icons{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#icons i{
+    font-size: 20px;
+}
+
+#btmflower{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 0%;
+    bottom: 0%;
+    background-image: url(https://images.unsplash.com/photo-1533038590840-1cde6e668a91?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#btmflower i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.316);
+    font-size: 20px;
+}
+
+#right #rbottom{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-image: url(https://images.unsplash.com/photo-1579187707643-35646d22b596?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#capsule{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+#capsule h2{
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 1;
+}
+
+#capsule p{
+    font-size: 12px;
+    width: 90%;
+    opacity: .5;
+    font-weight: 500;
+}
